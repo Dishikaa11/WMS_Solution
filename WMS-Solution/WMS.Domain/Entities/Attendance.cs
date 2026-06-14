@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace WMS.Domain.Entities;
+
+[Table("Attendances")]
+public class Attendance
+{
+    public int AttendanceId { get; set; }
+
+    public int EmpId { get; set; }
+
+    public Employee? Employee { get; set; }
+
+    public DateTime CheckIn { get; set; }
+
+    public DateTime? CheckOut { get; set; }
+
+    public double TotalHours { get; set; }
+
+    public string? WorkMode { get; set; }
+
+    public DateOnly AttendanceDate { get; set; }
+    public string Status { get; set; } = "Present";
+}

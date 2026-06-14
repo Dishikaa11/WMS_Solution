@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WMS.API",
+    "\\WMS.API\\Controllers",
+    "\\WMS.Domain",
+    "\\WMS.Domain\\Entities",
+    "\\WMS.Domain\\Interfaces",
+    "\\WMS.Infrastructure",
+    "\\WMS.Infrastructure\\Data",
+    "\\WMS.Infrastructure\\Migrations",
+    "\\WMS.Infrastructure\\Repositories"
+  ],
+  "SelectedNode": "\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+  "PreviewInSolutionExplorer": false
+}

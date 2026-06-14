@@ -1,0 +1,17 @@
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\bin\Debug\net10.0\WMS.Infrastructure.deps.json
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\bin\Debug\net10.0\WMS.Infrastructure.runtimeconfig.json
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\bin\Debug\net10.0\WMS.Infrastructure.dll
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\bin\Debug\net10.0\WMS.Infrastructure.pdb
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\bin\Debug\net10.0\WMS.Domain.dll
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\bin\Debug\net10.0\WMS.Domain.pdb
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.csproj.AssemblyReference.cache
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.AssemblyInfoInputs.cache
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.AssemblyInfo.cs
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infr.677E6FEF.Up2Date
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.dll
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\refint\WMS.Infrastructure.dll
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.pdb
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\WMS.Infrastructure.genruntimeconfig.cache
+D:\Capgemini\WMS-Solution\WMS.Infrastructure\obj\Debug\net10.0\ref\WMS.Infrastructure.dll

@@ -1,0 +1,14 @@
+D:\Capgemini\WMS-Solution\WMS.Domain\bin\Debug\net10.0\WMS.Domain.deps.json
+D:\Capgemini\WMS-Solution\WMS.Domain\bin\Debug\net10.0\WMS.Domain.runtimeconfig.json
+D:\Capgemini\WMS-Solution\WMS.Domain\bin\Debug\net10.0\WMS.Domain.dll
+D:\Capgemini\WMS-Solution\WMS.Domain\bin\Debug\net10.0\WMS.Domain.pdb
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.csproj.AssemblyReference.cache
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.AssemblyInfoInputs.cache
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.AssemblyInfo.cs
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.csproj.CoreCompileInputs.cache
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.dll
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\refint\WMS.Domain.dll
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.pdb
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\WMS.Domain.genruntimeconfig.cache
+D:\Capgemini\WMS-Solution\WMS.Domain\obj\Debug\net10.0\ref\WMS.Domain.dll

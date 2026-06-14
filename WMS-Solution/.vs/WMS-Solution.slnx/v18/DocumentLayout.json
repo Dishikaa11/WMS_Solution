@@ -1,0 +1,1805 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini\\WMS-Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\employeedashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\employeedashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\announcementsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\announcementsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\projectsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\projectsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\employeeprojectallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\employeeprojectallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\leavesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\leavesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\attendancesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\attendancesummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\wms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\wms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\data\\wmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\data\\wmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\userloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\userloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iuserloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iuserloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260611100123_addlastlogintouserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260611100123_addlastlogintouserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\ileaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\ileaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260610070426_adduserlogintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260610070426_adduserlogintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\auditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\auditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\auditlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\auditlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iauditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iauditlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\employeeprojectallocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\employeeprojectallocationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\auditlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\auditlogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260611045430_addauditlogtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260611045430_addauditlogtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260611041804_changeallocationstatustostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260611041804_changeallocationstatustostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\employeeprojectallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\employeeprojectallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\employeeprojectallocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\employeeprojectallocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\employeeprojectallocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\employeeprojectallocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260611034615_addemployeeprojectallocationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260611034615_addemployeeprojectallocationtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iemployeeprojectallocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iemployeeprojectallocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260610165533_addprojecttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260610165533_addprojecttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260610164347_addclienttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260610164347_addclienttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iannouncementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iannouncementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iannouncementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iannouncementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\announcementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\announcementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\ileaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\ileaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\leavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\leavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\iattendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260610124002_testattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260610124002_testattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\wmsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\wmsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\interfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\interfaces\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260610055253_addemployeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260610055253_addemployeetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|d:\\capgemini\\wms-solution\\wms.application\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DDC6AC-916E-9288-A6CD-E80490068D6A}|WMS.Application\\WMS.Application.csproj|solutionrelative:wms.application\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|d:\\capgemini\\wms-solution\\wms.domain\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF85D287-9E26-1FB1-E308-94DFDB3A538B}|WMS.Domain\\WMS.Domain.csproj|solutionrelative:wms.domain\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|d:\\capgemini\\wms-solution\\wms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86641F12-4411-6132-56B2-0C2AA9B3F38A}|WMS.API\\WMS.API.csproj|solutionrelative:wms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\migrations\\20260610051049_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\migrations\\20260610051049_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|d:\\capgemini\\wms-solution\\wms.infrastructure\\wms.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD5A3E34-DA03-F4C0-7478-5986960A8F34}|WMS.Infrastructure\\WMS.Infrastructure.csproj|solutionrelative:wms.infrastructure\\wms.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnnouncementSummaryDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AnnouncementSummaryDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\AnnouncementSummaryDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AnnouncementSummaryDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\AnnouncementSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T10:10:42.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectSummaryDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ProjectSummaryDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\ProjectSummaryDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ProjectSummaryDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\ProjectSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T10:08:21.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDashboardDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\EmployeeDashboardDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\EmployeeDashboardDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\EmployeeDashboardDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\EmployeeDashboardDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T08:44:23.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\DashboardService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\DashboardService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAwwMcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T09:04:56.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeProjectAllocation.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\EmployeeProjectAllocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:08:28.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Announcement.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Announcement.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Announcement.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:48:42.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeaveSummaryDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LeaveSummaryDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\LeaveSummaryDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LeaveSummaryDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\LeaveSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T09:59:23.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:12:47.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T09:05:22.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttendanceSummaryDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AttendanceSummaryDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\AttendanceSummaryDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AttendanceSummaryDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\AttendanceSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T09:59:01.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\JwtService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\JwtService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:09:38.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:12:19.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Program.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Program.cs",
+              "RelativeToolTip": "WMS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:07:16.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendanceDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AttendanceDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\AttendanceDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AttendanceDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\AttendanceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:18:38.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WMS.API",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\WMS.API.csproj",
+              "RelativeDocumentMoniker": "WMS.API\\WMS.API.csproj",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\WMS.API.csproj",
+              "RelativeToolTip": "WMS.API\\WMS.API.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-13T09:21:38.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Attendance.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Attendance.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Attendance.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:15:04.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:17:20.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IJwtService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:08:56.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WmsDbContext.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Data\\WmsDbContext.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Data\\WmsDbContext.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Data\\WmsDbContext.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Data\\WmsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T15:24:10.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T09:04:30.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\AuditLog.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:48:38.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserLoginRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\UserLoginRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\UserLoginRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\UserLoginRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\UserLoginRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wDgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:04:12.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserLoginRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IUserLoginRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IUserLoginRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IUserLoginRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IUserLoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:03:46.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\ChangePasswordDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ChangePasswordDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T18:22:04.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\UserLogin.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\UserLogin.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\UserLogin.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\UserLogin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:46:02.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:15:18.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\ClientController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:49:24.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:14:42.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260611100123_AddLastLoginToUserLogin.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611100123_AddLastLoginToUserLogin.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260611100123_AddLastLoginToUserLogin.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611100123_AddLastLoginToUserLogin.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260611100123_AddLastLoginToUserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T10:01:23.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:25:57.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\RoleService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\RoleService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:14:13.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\DashboardDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\DashboardDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\DashboardDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\DashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T09:03:49.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IRoleService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:13:52.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:13:21.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:12:56.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\RoleDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\RoleDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\RoleDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\RoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T07:12:27.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:01:46.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwEwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:02:02.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:02:28.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAADwv7QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:02:45.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\LeaveController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\LeaveController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAIBZwEcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:34:05.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ILeaveService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\ILeaveService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\ILeaveService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\ILeaveService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\ILeaveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:32:39.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LeaveService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\LeaveService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\LeaveService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\LeaveService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\LeaveService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwJcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:33:43.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:41:31.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260610070426_AddUserLoginTable.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610070426_AddUserLoginTable.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260610070426_AddUserLoginTable.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610070426_AddUserLoginTable.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260610070426_AddUserLoginTable.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:21:50.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\LoginRequestDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LoginRequestDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T07:40:34.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuditLogService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AuditLogService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\AuditLogService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AuditLogService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\AuditLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:58:18.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuditLogController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AuditLogController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\AuditLogController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AuditLogController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\AuditLogController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvykAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:58:48.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IAuditLogService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAuditLogService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IAuditLogService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAuditLogService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IAuditLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:57:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EmployeeProjectAllocationDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\EmployeeProjectAllocationDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\EmployeeProjectAllocationDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\EmployeeProjectAllocationDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\EmployeeProjectAllocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:14:38.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuditLogRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\AuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:57:08.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IAuditLogRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IAuditLogRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IAuditLogRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IAuditLogRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IAuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:56:23.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AuditLogDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AuditLogDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\AuditLogDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AuditLogDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\AuditLogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:55:42.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260611045430_AddAuditLogTable.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611045430_AddAuditLogTable.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260611045430_AddAuditLogTable.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611045430_AddAuditLogTable.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260611045430_AddAuditLogTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:54:31.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260611041804_ChangeAllocationStatusToString.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611041804_ChangeAllocationStatusToString.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260611041804_ChangeAllocationStatusToString.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611041804_ChangeAllocationStatusToString.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260611041804_ChangeAllocationStatusToString.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:18:05.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EmployeeProjectAllocationService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\EmployeeProjectAllocationService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\EmployeeProjectAllocationService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\EmployeeProjectAllocationService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\EmployeeProjectAllocationService.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowEwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:52:22.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\ClientService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\ClientService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\ClientService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswEIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:48:53.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EmployeeProjectAllocationRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\EmployeeProjectAllocationRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\EmployeeProjectAllocationRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\EmployeeProjectAllocationRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\EmployeeProjectAllocationRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvxwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:51:52.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EmployeeProjectAllocationController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\EmployeeProjectAllocationController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\EmployeeProjectAllocationController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\EmployeeProjectAllocationController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\EmployeeProjectAllocationController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:52:51.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260611034615_AddEmployeeProjectAllocationTable.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611034615_AddEmployeeProjectAllocationTable.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260611034615_AddEmployeeProjectAllocationTable.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260611034615_AddEmployeeProjectAllocationTable.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260611034615_AddEmployeeProjectAllocationTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:46:15.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IEmployeeProjectAllocationRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IEmployeeProjectAllocationRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IEmployeeProjectAllocationRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IEmployeeProjectAllocationRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IEmployeeProjectAllocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:16:01.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Project.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:53:36.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IProjectService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IProjectService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IProjectService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:58:31.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwv0IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:02:46.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvzMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:01:43.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\ProjectService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\ProjectService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\ProjectService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv1sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:02:13.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:57:12.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\ProjectDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ProjectDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:56:32.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20260610165533_AddProjectTable.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610165533_AddProjectTable.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260610165533_AddProjectTable.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610165533_AddProjectTable.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260610165533_AddProjectTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:55:33.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IClientService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:46:59.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:46:26.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvzAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:48:23.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Client.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:42:11.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ClientDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\ClientDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\ClientDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\ClientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:45:50.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "20260610164347_AddClientTable.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610164347_AddClientTable.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260610164347_AddClientTable.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610164347_AddClientTable.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260610164347_AddClientTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T16:43:48.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AnnouncementController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AnnouncementController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\AnnouncementController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AnnouncementController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\AnnouncementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:57:49.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IAnnouncementService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAnnouncementService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IAnnouncementService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAnnouncementService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IAnnouncementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:55:15.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AnnouncementRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\AnnouncementRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvzAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:53:56.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AnnouncementService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AnnouncementService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\AnnouncementService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AnnouncementService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\AnnouncementService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwv2MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:57:25.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IAnnouncementRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:53:28.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "LeaveRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\LeaveRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:31:37.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "AnnouncementDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AnnouncementDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\AnnouncementDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\AnnouncementDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\AnnouncementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:52:45.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\AttendanceRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:46:55.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ILeaveRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\ILeaveRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:31:05.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "LeaveDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LeaveDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\LeaveDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\LeaveDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\LeaveDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:30:01.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Leave.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Leave.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Leave.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Leave.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Leave.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T15:26:38.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IAttendanceService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAttendanceService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IAttendanceService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IAttendanceService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IAttendanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:47:52.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\AttendanceService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\AttendanceService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\AttendanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:48:44.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "WMS.API\\Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "WMS.API\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:54:18.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IAttendanceRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IAttendanceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:46:16.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20260610124002_TestAttendance.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610124002_TestAttendance.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260610124002_TestAttendance.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610124002_TestAttendance.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260610124002_TestAttendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:40:02.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "WmsDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\WmsDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\WmsDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\WmsDbContextModelSnapshot.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\WmsDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:36:27.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Department.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Department.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T15:10:00.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Entities\\Role.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "WMS.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:54:49.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Services\\DepartmentService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "WMS.Application\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:23:23.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\Interfaces\\IDepartmentService.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\Interfaces\\IDepartmentService.cs",
+              "RelativeToolTip": "WMS.Application\\Interfaces\\IDepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:19:56.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\EmployeeDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\EmployeeDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:00:13.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "WMS.API\\appsettings.json",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\appsettings.json",
+              "RelativeToolTip": "WMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-10T05:04:09.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20260610055253_AddEmployeeTable.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610055253_AddEmployeeTable.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260610055253_AddEmployeeTable.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610055253_AddEmployeeTable.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260610055253_AddEmployeeTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:52:53.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "WMS.Application\\DTOs\\DepartmentDto.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Application\\DTOs\\DepartmentDto.cs",
+              "RelativeToolTip": "WMS.Application\\DTOs\\DepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:18:56.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "WMS.Domain\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:21:47.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:22:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WMS.API\\appsettings.Development.json",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.API\\appsettings.Development.json",
+              "RelativeToolTip": "WMS.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-10T05:15:23.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "20260610051049_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610051049_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\Migrations\\20260610051049_InitialCreate.cs",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\Migrations\\20260610051049_InitialCreate.cs",
+              "RelativeToolTip": "WMS.Infrastructure\\Migrations\\20260610051049_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:10:50.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "WMS.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "WMS.Infrastructure\\WMS.Infrastructure.csproj",
+              "ToolTip": "D:\\Capgemini\\WMS-Solution\\WMS.Infrastructure\\WMS.Infrastructure.csproj",
+              "RelativeToolTip": "WMS.Infrastructure\\WMS.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-09T15:23:57.98Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

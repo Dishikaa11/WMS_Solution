@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+using System.ComponentModel.DataAnnotations;
+
+namespace WMS.Domain.Entities;
+
+public class Role
+{
+    public int RoleId { get; set; }
+
+    [Required]
+    [StringLength(50)]
+    public string RoleName { get; set; } = string.Empty;
+
+    [StringLength(150)]
+    public string? Description { get; set; }
+
+    public ICollection<Employee> Employees { get; set; }
+        = new List<Employee>();
+
+    public ICollection<UserLogin> UserLogin { get; set; }
+    = new List<UserLogin>();
+}
