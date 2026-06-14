@@ -1,0 +1,106 @@
+<div class="page-header">
+
+  <div>
+
+    <h1>
+      Employee Project Allocation
+    </h1>
+
+    <p>
+      Assign employees to projects
+    </p>
+
+  </div>
+
+  <button
+    class="add-btn"
+    (click)="addAllocation()">
+
+    + Assign Employee
+
+  </button>
+
+</div>
+
+<div class="table-card">
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>ID</th>
+
+        <th>Employee ID</th>
+
+        <th>Project ID</th>
+
+        <th>Assigned On</th>
+
+        <th>Status</th>
+
+        <th>Actions</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr
+      *ngFor="let item of allocations">
+
+        <td>
+          {{item.allocationId}}
+        </td>
+
+        <td>
+          {{item.empId}}
+        </td>
+
+        <td>
+          {{item.projectId}}
+        </td>
+
+        <td>
+          {{item.assignedOn | date}}
+        </td>
+
+        <td>
+
+          <span class="status">
+
+            {{item.status}}
+
+          </span>
+
+        </td>
+
+        <td>
+
+          <button
+            class="edit-btn"
+            (click)="editAllocation(item.allocationId)">
+
+            Edit
+
+          </button>
+
+          <button
+            class="delete-btn"
+            (click)="deleteAllocation(item.allocationId)">
+
+            Delete
+
+          </button>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

@@ -1,0 +1,105 @@
+<div class="sidebar">
+
+  <div class="logo">
+    <h2>WMS</h2>
+    <span>Workforce Management</span>
+  </div>
+
+  <ul>
+
+    <li *ngIf="role==='Admin'">
+  <a routerLink="/admin-dashboard">
+    📊 Dashboard
+  </a>
+</li>
+
+<li *ngIf="role==='Manager'">
+  <a routerLink="/manager-dashboard">
+    📊 Dashboard
+  </a>
+</li>
+
+<li *ngIf="role==='Employee'">
+  <a routerLink="/employee-dashboard">
+    📊 Dashboard
+  </a>
+</li>
+
+    <li *ngIf="role === 'Admin'">
+  <a routerLink="/roles">
+    🔐 Roles
+  </a>
+</li>
+
+  <li *ngIf="role === 'Admin'"><a routerLink="/employees"> 👨‍💼 Employees </a></li>
+
+    <li *ngIf="role === 'Admin'">
+  <a routerLink="/user-logins">
+    👤 User Logins
+  </a>
+</li>
+
+  <li *ngIf="role === 'Admin'"><a routerLink="/departments">  🏢 Departments </a></li>
+
+  <li *ngIf="role === 'Admin' || role === 'Manager'"><a routerLink="/attendance"> 🕒 Attendance </a></li>
+
+<!-- <li *ngIf="role === 'Employee'"><a routerLink="/my-attendance"> 🕒 My Attendance </a></li> -->
+
+<li *ngIf="role === 'Admin' || role === 'Manager'">
+  <a routerLink="/leaves">
+    📝 Leaves
+  </a>
+</li>
+
+<li *ngIf="role === 'Employee'">
+  <a routerLink="/my-leaves">
+    📝 Leaves 
+  </a>
+</li>
+
+    <li *ngIf="role === 'Admin' || role === 'Manager'">
+  <a routerLink="/projects">
+    📁 Projects
+  </a>
+</li>
+
+    <li *ngIf="role === 'Admin' || role === 'Manager'">
+  <a routerLink="/allocations">
+    📌 Employee Allocation
+  </a>
+</li>
+
+    <li *ngIf="role === 'Admin'">
+  <a routerLink="/clients">
+    🤝 Clients
+  </a>
+</li>
+
+    <li><a routerLink="/announcements">📢 Notices</a></li>
+
+    <li *ngIf="role === 'Employee'">
+
+  <a routerLink="/change-password">
+
+    🔑 Change Password
+
+  </a>
+
+</li>
+
+<li *ngIf="role === 'Admin'">
+
+  <a routerLink="/audit-logs">
+
+    📋 Audit Logs
+
+  </a>
+
+</li>
+
+   
+
+
+  </ul>
+
+</div>

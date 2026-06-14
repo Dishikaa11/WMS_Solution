@@ -1,0 +1,70 @@
+<div class="form-wrapper">
+
+  <div class="form-header">
+
+    <button
+      class="back-btn"
+      (click)="goBack()">
+
+      ← Back
+
+    </button>
+
+    <h2>
+
+      {{isEditMode
+      ? 'Edit Role'
+      : 'Add Role'}}
+
+    </h2>
+
+  </div>
+
+  <form
+    [formGroup]="roleForm"
+    (ngSubmit)="onSubmit()">
+
+    <div class="form-card">
+
+      <div class="form-group">
+
+        <label>
+          Role Name
+        </label>
+
+        <input
+          type="text"
+          formControlName="roleName">
+
+      </div>
+
+      <div class="form-group">
+
+        <label>
+          Description
+        </label>
+
+        <textarea
+          rows="4"
+          formControlName="description">
+        </textarea>
+
+      </div>
+
+      <div class="btn-row">
+
+        <button
+          type="submit"
+          class="save-btn">
+
+          Save Role
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </form>
+
+</div>

@@ -1,0 +1,168 @@
+<div class="attendance-page">
+
+  <div class="page-header">
+
+    <div>
+      <h1>Attendance Management</h1>
+      <p>
+        Manage employee attendance records
+      </p>
+    </div>
+
+    <button
+    *ngIf="
+      role === 'Admin' ||
+      role === 'Manager'
+      "
+      class="add-btn"
+      (click)="addAttendance()">
+
+      + Mark Attendance
+
+    </button>
+
+  </div>
+
+  <div *ngIf="
+  role === 'Admin' ||
+  role === 'Manager'"
+  class="stats-grid">
+
+    <div class="stat-card">
+      <h3>Total Records</h3>
+      <h2>{{ attendances.length }}</h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Remote</h3>
+      <h2>
+        {{
+        attendances.filter(
+        x => x.workMode === 'Remote'
+        ).length
+        }}
+      </h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Office</h3>
+      <h2>
+        {{
+        attendances.filter(
+        x => x.workMode === 'Office'
+        ).length
+        }}
+      </h2>
+    </div>
+
+    <div class="stat-card">
+      <h3>Average Hours</h3>
+      <h2>8.5</h2>
+    </div>
+
+  </div>
+
+  <div class="table-card">
+
+    <table>
+
+      <thead>
+
+        <tr>
+
+          <th>ID</th>
+          <th>Employee</th>
+          <th>Date</th>
+          <th>Check In</th>
+          <th>Check Out</th>
+          <th>Total Hours</th>
+          <th>Work Mode</th>
+          <th *ngIf="role === 'Admin' ||role === 'Manager'">Actions</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr
+        *ngFor=
+        "let attendance of attendances">
+
+          <td>
+            {{ attendance.attendanceId }}
+          </td>
+
+          <td>
+            {{ attendance.empId }}
+          </td>
+
+          <td>
+            {{ attendance.attendanceDate }}
+          </td>
+
+          <td>
+            {{ attendance.checkIn }}
+          </td>
+
+          <td>
+            {{ attendance.checkOut }}
+          </td>
+
+          <td>
+            {{ attendance.totalHours }}
+          </td>
+
+          <td>
+
+            <span class="badge">
+
+              {{ attendance.workMode }}
+
+            </span>
+
+          </td>
+
+          <td>
+
+            <button
+            *ngIf="
+              role === 'Admin' ||
+              role === 'Manager'
+              "
+            class="edit-btn"
+            (click)="
+            editAttendance(
+            attendance.attendanceId
+            )">
+
+            Edit
+
+            </button>
+
+            <button
+            *ngIf="
+              role === 'Admin' ||
+              role === 'Manager'
+              "
+            class="delete-btn"
+            (click)="
+            deleteAttendance(
+            attendance.attendanceId
+            )">
+
+            Delete
+
+            </button>
+
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

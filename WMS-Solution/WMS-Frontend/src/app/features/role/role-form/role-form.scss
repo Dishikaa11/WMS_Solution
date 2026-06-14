@@ -1,0 +1,59 @@
+.form-wrapper{
+
+  max-width:900px;
+
+  margin:auto;
+
+}
+
+.form-card{
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:16px;
+
+  box-shadow:
+  0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.form-group{
+
+  margin-bottom:20px;
+
+}
+
+input,
+textarea{
+
+  width:100%;
+
+  padding:12px;
+
+  border:1px solid #d1d5db;
+
+  border-radius:8px;
+
+}
+
+.save-btn{
+
+  background:#2563eb;
+
+  color:white;
+
+  border:none;
+
+  padding:12px 20px;
+
+  border-radius:8px;
+
+}
+
+.back-btn{
+
+  margin-bottom:15px;
+
+}

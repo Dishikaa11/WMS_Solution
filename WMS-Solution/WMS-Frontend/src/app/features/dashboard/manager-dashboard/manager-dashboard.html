@@ -1,0 +1,57 @@
+<div class="dashboard">
+
+  <h1>Manager Dashboard</h1>
+
+  <div class="stats-grid">
+
+    <div class="card blue">
+      <h3>Team Members</h3>
+      <h2>18</h2>
+    </div>
+
+    <div class="card green">
+      <h3>Active Projects</h3>
+      <h2>6</h2>
+    </div>
+
+    <div class="card orange">
+      <h3>Pending Leaves</h3>
+      <h2>4</h2>
+    </div>
+
+    <div class="card red">
+      <h3>Attendance Today</h3>
+      <h2>15</h2>
+    </div>
+
+  </div>
+
+  <div class="dashboard-row">
+
+    <div class="chart-card">
+
+      <h3>Project Status</h3>
+
+      <canvas
+        baseChart
+        [data]="projectChartData"
+        [type]="'bar'">
+      </canvas>
+
+    </div>
+
+    <div class="chart-card">
+
+      <h3>Team Attendance</h3>
+
+      <canvas
+        baseChart
+        [data]="attendanceChartData"
+        [type]="'pie'">
+      </canvas>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,42 @@
+.sidebar {
+  width: 260px;
+  background: #0f172a;
+  color: white;
+  height: 200vh;
+  padding: 20px;
+}
+
+.logo{
+  margin-bottom:40px;
+}
+
+.logo h2{
+  margin:0;
+  font-size:28px;
+}
+
+.logo span{
+  font-size:12px;
+  color:#94a3b8;
+}
+
+.sidebar ul{
+  list-style:none;
+  padding:0;
+}
+
+.sidebar li{
+  margin-bottom:12px;
+}
+
+.sidebar a{
+  color:white;
+  text-decoration:none;
+  display:block;
+  padding:12px;
+  border-radius:10px;
+}
+
+.sidebar a:hover{
+  background:#2563eb;
+}

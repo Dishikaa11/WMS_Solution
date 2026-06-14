@@ -1,0 +1,117 @@
+<div class="login-wrapper">
+
+  <div class="left-section">
+
+    <div class="logo">
+      <h2>WMS</h2>
+      <span>Workforce Management System</span>
+    </div>
+
+    <div class="hero-content">
+
+      <h1>
+        Manage Your Workforce,
+        <span>Empower Your Business</span>
+      </h1>
+
+      <p>
+        A complete solution to manage employees,
+        attendance, leave, projects, clients and
+        departments efficiently.
+      </p>
+
+      <div class="feature-grid">
+
+        <div class="feature-card">
+          Employee Management
+        </div>
+
+        <div class="feature-card">
+          Attendance Tracking
+        </div>
+
+        <div class="feature-card">
+          Leave Management
+        </div>
+
+        <div class="feature-card">
+          Project & Client Management
+        </div>
+
+        <div class="feature-card">
+          Department Management
+        </div>
+
+        <div class="feature-card">
+          Reports & Analytics
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="right-section">
+
+    <div class="login-card">
+
+      <div class="user-icon">
+
+        <span>👤</span>
+
+      </div>
+
+      <h2>Sign In</h2>
+
+      <p>
+        Welcome back! Please sign in to continue
+      </p>
+
+      <form
+        [formGroup]="loginForm"
+        (ngSubmit)="onSubmit()">
+
+        <label>Username</label>
+
+        <input
+          type="text"
+          placeholder="Enter your username"
+          formControlName="username">
+
+        <label>Password</label>
+
+        <input
+          type="password"
+          placeholder="Enter your password"
+          formControlName="password">
+
+        <div class="options">
+
+          <label>
+
+            <input type="checkbox">
+
+            Remember me
+
+          </label>
+
+          <!-- <a href="#">
+            Forgot password?
+          </a> -->
+
+        </div>
+
+        <button type="submit">
+
+          Sign In
+
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>

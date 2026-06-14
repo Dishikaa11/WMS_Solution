@@ -1,0 +1,97 @@
+.form-wrapper{
+
+  max-width:900px;
+
+  margin:auto;
+
+}
+
+.form-header{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+
+  margin-bottom:20px;
+
+}
+
+.back-btn{
+
+  background:#e5e7eb;
+
+  border:none;
+
+  padding:10px 14px;
+
+  border-radius:8px;
+
+  cursor:pointer;
+
+}
+
+.form-card{
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:16px;
+
+  box-shadow:
+  0 2px 12px rgba(0,0,0,.08);
+
+}
+
+.form-group{
+
+  margin-bottom:20px;
+
+}
+
+label{
+
+  display:block;
+
+  margin-bottom:8px;
+
+  font-weight:600;
+
+}
+
+input,
+select{
+
+  width:100%;
+
+  padding:12px;
+
+  border:1px solid #d1d5db;
+
+  border-radius:8px;
+
+}
+
+.btn-row{
+
+  text-align:right;
+
+}
+
+.save-btn{
+
+  background:#2563eb;
+
+  color:white;
+
+  border:none;
+
+  padding:12px 20px;
+
+  border-radius:8px;
+
+  cursor:pointer;
+
+}

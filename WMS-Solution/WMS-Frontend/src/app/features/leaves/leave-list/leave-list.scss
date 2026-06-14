@@ -1,0 +1,178 @@
+.leave-page {
+  padding: 30px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.page-header h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.page-header p {
+  color: #64748b;
+}
+
+.add-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap: 20px;
+
+  margin-bottom: 25px;
+}
+
+.stat-card {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 18px;
+
+  box-shadow:
+  0 6px 20px
+  rgba(0,0,0,.08);
+
+}
+
+.pending {
+  border-left: 5px solid orange;
+}
+
+.approved {
+  border-left: 5px solid green;
+}
+
+.rejected {
+  border-left: 5px solid red;
+}
+
+.total {
+  border-left: 5px solid #2563eb;
+}
+
+.table-card {
+
+  background: white;
+
+  border-radius: 18px;
+
+  padding: 25px;
+
+  box-shadow:
+  0 6px 20px
+  rgba(0,0,0,.08);
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f8fafc;
+  padding: 16px;
+  text-align: left;
+}
+
+td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.status-pending {
+  color: orange;
+  font-weight: 600;
+}
+
+.status-approved {
+  color: green;
+  font-weight: 600;
+}
+
+.status-rejected {
+  color: red;
+  font-weight: 600;
+}
+
+.approve-btn,
+.reject-btn,
+.edit-btn {
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  margin-right: 6px;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.approve-btn {
+  background: green;
+}
+
+.reject-btn {
+  background: red;
+}
+
+.edit-btn {
+  background: #2563eb;
+}
+
+.delete-btn {
+
+  background: #dc2626;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  margin-left: 6px;
+
+}
+
+.search-box {
+
+  width: 300px;
+
+  height: 45px;
+
+  padding: 0 15px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+
+  font-size: 14px;
+
+}

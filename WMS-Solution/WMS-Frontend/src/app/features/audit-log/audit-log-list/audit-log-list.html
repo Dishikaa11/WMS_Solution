@@ -1,0 +1,74 @@
+<div class="page-header">
+
+  <h1>
+
+    Audit Logs
+
+  </h1>
+
+</div>
+
+<div class="table-card">
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>ID</th>
+
+        <th>Entity</th>
+
+        <th>Record</th>
+
+        <th>Action</th>
+
+        <th>User</th>
+
+        <th>Date</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr
+      *ngFor="
+      let log of logs">
+
+        <td>
+          {{log.auditId}}
+        </td>
+
+        <td>
+          {{log.entityName}}
+        </td>
+
+        <td>
+          {{log.recordId}}
+        </td>
+
+        <td>
+          {{log.action}}
+        </td>
+
+        <td>
+          {{log.createdBy}}
+        </td>
+
+        <td>
+          {{log.createdOn
+          | date:
+          'dd-MM-yyyy HH:mm'
+          }}
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

@@ -1,0 +1,129 @@
+.announcement-page {
+  padding: 30px;
+}
+
+.page-header {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:25px;
+}
+
+.stats-grid {
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(3,1fr);
+
+  gap:20px;
+
+  margin-bottom:25px;
+
+}
+
+.stat-card {
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:18px;
+
+  box-shadow:
+  0 8px 20px
+  rgba(0,0,0,.08);
+
+}
+
+.total {
+  border-left:5px solid #7c3aed;
+}
+
+.active {
+  border-left:5px solid #22c55e;
+}
+
+.inactive {
+  border-left:5px solid #ef4444;
+}
+
+.announcement-card {
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:18px;
+
+  margin-bottom:20px;
+
+  box-shadow:
+  0 8px 20px
+  rgba(0,0,0,.08);
+
+}
+
+.announcement-header {
+
+  display:flex;
+
+  justify-content:space-between;
+
+  margin-bottom:15px;
+
+}
+
+.active-badge {
+
+  color:#16a34a;
+
+  font-weight:600;
+
+}
+
+.inactive-badge {
+
+  color:#dc2626;
+
+  font-weight:600;
+
+}
+
+.announcement-footer {
+
+  display:flex;
+
+  justify-content:space-between;
+
+  margin-top:20px;
+
+}
+
+.add-btn,
+.edit-btn {
+
+  background:#2563eb;
+
+  color:white;
+
+  border:none;
+
+  padding:10px 15px;
+
+  border-radius:8px;
+
+}
+
+.delete-btn {
+
+  background:#ef4444;
+
+  color:white;
+
+  border:none;
+
+  padding:10px 15px;
+
+  border-radius:8px;
+
+}

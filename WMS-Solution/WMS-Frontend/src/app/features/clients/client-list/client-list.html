@@ -1,0 +1,127 @@
+<div class="client-page">
+
+  <div class="page-header">
+
+    <div>
+      <h1>Client Management</h1>
+      <p>
+        Manage all clients and business partners
+      </p>
+    </div>
+
+    <button
+      class="add-btn"
+      (click)="addClient()">
+
+      + Add Client
+
+    </button>
+
+  </div>
+
+  <div class="stats-grid">
+
+    <div class="stat-card total">
+
+      <h3>Total Clients</h3>
+
+      <h2>{{ clients.length }}</h2>
+
+    </div>
+
+    <div class="stat-card active">
+
+      <h3>Active Clients</h3>
+
+      <h2>{{ activeClients }}</h2>
+
+    </div>
+
+    <div class="stat-card inactive">
+
+      <h3>Inactive Clients</h3>
+
+      <h2>{{ inactiveClients }}</h2>
+
+    </div>
+
+  </div>
+
+  <div class="table-card">
+
+    <table>
+
+      <thead>
+
+        <tr>
+
+          <th>ID</th>
+          <th>Client Name</th>
+          <th>Phone</th>
+          <th>Location</th>
+          <th>Status</th>
+          <th>Actions</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let client of clients">
+
+          <td>{{ client.clientId }}</td>
+
+          <td>{{ client.clientName }}</td>
+
+          <td>{{ client.clientPhoneNumber }}</td>
+
+          <td>{{ client.clientLocation }}</td>
+
+          <td>
+
+            <span
+            [ngClass]="
+            client.status
+            ? 'active-status'
+            : 'inactive-status'">
+
+            {{
+              client.status
+              ? 'Active'
+              : 'Inactive'
+            }}
+
+            </span>
+
+          </td>
+
+          <td>
+
+            <button
+            class="edit-btn"
+            (click)="editClient(client.clientId)">
+
+            Edit
+
+            </button>
+
+            <button
+            class="delete-btn"
+            (click)="deleteClient(client.clientId)">
+
+            Delete
+
+            </button>
+
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

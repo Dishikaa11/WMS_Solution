@@ -1,0 +1,107 @@
+<div class="page-header">
+
+  <div>
+
+    <h1>
+      User Logins
+    </h1>
+
+    <p>
+      Manage system users
+    </p>
+
+  </div>
+
+  <button
+    class="add-btn"
+    (click)="addUser()">
+
+    + Add User
+
+  </button>
+
+</div>
+
+<div class="table-card">
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>ID</th>
+
+        <th>Username</th>
+
+        <th>Employee</th>
+
+        <th>Role</th>
+
+        <th>Last Login</th>
+
+        <th>Actions</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr
+      *ngFor="let user of users">
+
+        <td>{{user.userId}}</td>
+
+        <td>{{user.username}}</td>
+
+        <td>
+
+        {{ getEmployeeName(
+            user.employeeId
+        ) }}
+
+        </td>
+
+        <td>
+
+        {{ getRoleName(
+            user.roleId
+        ) }}
+
+        </td>
+
+        <td>
+
+        {{ user.lastLogin
+            | date:'dd-MM-yyyy hh:mm a' }}
+
+        </td>
+
+        <td>
+
+          <button
+          class="edit-btn"
+          (click)="editUser(user.userId)">
+
+            Edit
+
+          </button>
+
+          <button
+          class="delete-btn"
+          (click)="deleteUser(user.userId)">
+
+            Delete
+
+          </button>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

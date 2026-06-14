@@ -1,0 +1,120 @@
+.page-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 25px;
+
+}
+
+.table-card {
+
+  background: #fff;
+
+  border-radius: 20px;
+
+  padding: 24px;
+
+  box-shadow:
+    0 4px 20px rgba(0,0,0,.08);
+
+  overflow-x: auto;
+
+}
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  table-layout: fixed;
+
+}
+
+thead tr {
+
+  border-bottom: 1px solid #e5e7eb;
+
+}
+
+th {
+
+  padding: 18px;
+
+  text-align: center;
+
+  font-weight: 700;
+
+  color: #111827;
+
+}
+
+td {
+
+  padding: 18px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #e5e7eb;
+
+}
+
+tbody tr:hover {
+
+  background: #f8fafc;
+
+}
+
+.edit-btn {
+
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  margin-right: 8px;
+
+  cursor: pointer;
+
+}
+
+.delete-btn {
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+.add-btn {
+
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 22px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+}

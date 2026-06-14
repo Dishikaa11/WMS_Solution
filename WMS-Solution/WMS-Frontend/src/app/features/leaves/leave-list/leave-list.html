@@ -1,0 +1,174 @@
+<div class="leave-page">
+
+  <div class="page-header">
+
+    <div>
+      <h1>Leave Management</h1>
+      <p>
+        Manage employee leave requests
+      </p>
+      <div class="table-header">
+
+    <input
+      type="text"
+      placeholder="Search Leave Type..."
+      [(ngModel)]="searchText"
+      (input)="filterLeaves()"
+      class="search-box">
+
+  </div>
+
+    </div>
+    
+
+    <button
+      class="add-btn"
+      (click)="addLeave()">
+
+      + Apply Leave
+
+    </button>
+
+  </div>
+
+  <div *ngIf="
+  role === 'Admin' ||
+  role === 'Manager'
+  "class="stats-grid">
+
+    <div class="stat-card pending">
+      <h3>Pending</h3>
+      <h2>{{ pendingCount }}</h2>
+    </div>
+
+    <div class="stat-card approved">
+      <h3>Approved</h3>
+      <h2>{{ approvedCount }}</h2>
+    </div>
+
+    <div class="stat-card rejected">
+      <h3>Rejected</h3>
+      <h2>{{ rejectedCount }}</h2>
+    </div>
+
+    <div class="stat-card total">
+      <h3>Total Requests</h3>
+      <h2>{{ leaves.length }}</h2>
+    </div>
+
+  </div>
+
+  <div class="table-card">
+    
+
+    <table>
+      
+
+      <thead>
+
+        <tr>
+
+          <th>Employee</th>
+          <th>Leave Type</th>
+          <th>From</th>
+          <th>To</th>
+          <th>Status</th>
+          <th>Actions</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr *ngFor="let leave of leaves">
+
+          <td>{{ leave.empId }}</td>
+
+          <td>{{ leave.leaveType }}</td>
+
+          <td>{{ leave.fromDate }}</td>
+
+          <td>{{ leave.toDate }}</td>
+
+          <td>
+
+            <span
+            [ngClass]="{
+
+              'status-pending':
+              leave.status === 'Pending',
+
+              'status-approved':
+              leave.status === 'Approved',
+
+              'status-rejected':
+              leave.status === 'Rejected'
+
+            }">
+
+              {{ leave.status }}
+
+            </span>
+
+          </td>
+
+          <td>
+
+            <button
+              *ngIf="
+              role === 'Admin' ||
+              role === 'Manager'
+              "
+              class="approve-btn"
+              (click)="approveLeave(leave.leaveId)">
+
+              Approve
+
+            </button>
+
+            <button
+              *ngIf="
+              role === 'Admin' ||
+              role === 'Manager'
+              "
+              class="reject-btn"
+              (click)="rejectLeave(leave.leaveId)">
+
+              Reject
+
+            </button>
+
+            <button
+            class="edit-btn"
+            (click)="editLeave(
+              leave.leaveId
+            )">
+
+            Edit
+
+            </button>
+
+            <button
+              *ngIf="
+              role === 'Admin' ||
+              role === 'Manager'
+              "
+              class="delete-btn"
+              (click)="deleteLeave(leave.leaveId)">
+
+              Delete
+
+            </button>
+
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

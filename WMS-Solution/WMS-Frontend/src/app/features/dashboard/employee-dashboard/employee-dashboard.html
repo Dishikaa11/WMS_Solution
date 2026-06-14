@@ -1,0 +1,243 @@
+<div class="profile-card">
+
+  <h1>
+    Welcome, {{dashboard?.name}}
+  </h1>
+
+  <div class="profile-grid">
+
+    <div>
+      <label>Email</label>
+      <p>{{dashboard?.email}}</p>
+    </div>
+
+    <div>
+      <label>Department</label>
+      <p>{{dashboard?.department}}</p>
+    </div>
+
+    <div>
+      <label>Role</label>
+      <p>{{dashboard?.role}}</p>
+    </div>
+
+    <div>
+      <label>Date Of Joining</label>
+      <p>{{dashboard?.doj | date}}</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Attendance -->
+
+<div class="section-title">
+  My Attendance
+</div>
+
+<div class="stats-grid">
+
+  <div class="card">
+    <h3>Present Days</h3>
+    <span>{{dashboard?.presentDays}}</span>
+  </div>
+
+  <div class="card">
+    <h3>Absent Days</h3>
+    <span>{{dashboard?.absentDays}}</span>
+  </div>
+
+  <div class="card">
+    <h3>Attendance %</h3>
+    <span>{{dashboard?.attendancePercentage}}</span>
+  </div>
+
+</div>
+
+<!-- <div class="table-card">
+
+  <h3>Recent Attendance</h3>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr
+        *ngFor="
+        let attendance
+        of dashboard?.recentAttendance">
+
+        <td>
+          {{attendance.date | date}}
+        </td>
+
+        <td>
+          {{attendance.status}}
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div> -->
+
+<!-- Leaves -->
+
+<div class="section-title">
+  My Leaves
+</div>
+
+<div class="stats-grid">
+
+  <div class="card">
+    <h3>Applied</h3>
+    <span>{{dashboard?.appliedLeaves}}</span>
+  </div>
+
+  <div class="card">
+    <h3>Approved</h3>
+    <span>{{dashboard?.approvedLeaves}}</span>
+  </div>
+
+  <div class="card">
+    <h3>Rejected</h3>
+    <span>{{dashboard?.rejectedLeaves}}</span>
+  </div>
+
+  <div class="card">
+    <h3>Pending</h3>
+    <span>{{dashboard?.pendingLeaves}}</span>
+  </div>
+
+</div>
+
+<div class="table-card">
+
+  <h3>My Leave Requests</h3>
+
+  <table>
+
+    <thead>
+
+      <tr>
+        <th>Type</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Status</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr
+        *ngFor="
+        let leave
+        of dashboard?.recentLeaves">
+
+        <td>
+          {{leave.leaveType}}
+        </td>
+
+        <td>
+          {{leave.fromDate | date}}
+        </td>
+
+        <td>
+          {{leave.toDate | date}}
+        </td>
+
+        <td>
+          {{leave.status}}
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
+
+<!-- Projects -->
+
+<div class="table-card">
+
+  <h2>
+    My Projects
+  </h2>
+
+  <table>
+
+    <thead>
+
+      <tr>
+        <th>Project</th>
+        <th>Assigned On</th>
+        <th>Status</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr
+        *ngFor="
+        let project
+        of dashboard?.projects">
+
+        <td>
+          {{project.projectName}}
+        </td>
+
+        <td>
+          {{project.assignedOn | date}}
+        </td>
+
+        <td>
+          {{project.status}}
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
+
+<!-- Announcements -->
+
+<div class="table-card">
+
+  <h2>
+    Announcements
+  </h2>
+
+  <div
+    class="announcement"
+    *ngFor="
+    let notice
+    of dashboard?.announcements">
+
+    <h4>
+      {{notice.title}}
+    </h4>
+
+    <p>
+      {{notice.message}}
+    </p>
+
+  </div>
+
+</div>

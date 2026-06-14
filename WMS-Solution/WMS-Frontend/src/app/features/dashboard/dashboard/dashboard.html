@@ -1,0 +1,136 @@
+<div class="dashboard">
+
+  <h1>Dashboard Overview</h1>
+
+  <div class="stats-grid">
+
+    <div class="stat-card employees">
+      <h3>Total Employees</h3>
+      <h2>{{ totalEmployees }}</h2>
+      <p>+12% this month</p>
+    </div>
+
+    <div class="stat-card departments">
+      <h3>Departments</h3>
+      <h2>{{ totalDepartments }}</h2>
+      <p>Active Departments</p>
+    </div>
+
+    <div class="stat-card projects">
+      <h3>Projects</h3>
+      <h2>{{ totalProjects }}</h2>
+      <p>Running Projects</p>
+    </div>
+
+    <div class="stat-card leaves">
+      <h3>Pending Leaves</h3>
+      <h2>{{ pendingLeaves }}</h2>
+      <p>Awaiting Approval</p>
+    </div>
+
+  </div>
+
+  <div class="dashboard-row">
+
+    <!-- Project Analytics -->
+
+    <div class="chart-card">
+
+      <h3>Project Analytics</h3>
+
+      <canvas
+        baseChart
+        [data]="projectChartData"
+        [type]="'bar'">
+      </canvas>
+
+    </div>
+
+    <!-- Leave Analytics -->
+
+    <div class="chart-card">
+
+      <h3>Leave Analytics</h3>
+
+      <canvas
+        baseChart
+        [data]="leavePieChartData"
+        [type]="'pie'">
+      </canvas>
+
+    </div>
+
+    <div class="audit-card">
+
+  <div class="card-header">
+
+    <h3>
+
+      Recent Activities
+
+    </h3>
+
+  </div>
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>Entity</th>
+
+        <th>Action</th>
+
+        <th>User</th>
+
+        <th>Date</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr
+      *ngFor="
+      let log of auditLogs">
+
+        <td>
+
+          {{ log.entityName }}
+
+        </td>
+
+        <td>
+
+          {{ log.action }}
+
+        </td>
+
+        <td>
+
+          {{ log.createdBy }}
+
+        </td>
+
+        <td>
+
+          {{ log.createdOn
+          | date:
+          'dd-MM-yyyy hh:mm a'
+          }}
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
+
+  </div>
+
+</div>

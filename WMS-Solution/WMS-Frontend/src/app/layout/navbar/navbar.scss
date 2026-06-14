@@ -1,0 +1,113 @@
+.navbar {
+
+  height: 70px;
+
+  background: white;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 0 30px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.page-title {
+
+  font-size: 22px;
+
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.navbar-right {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+}
+
+.notification-btn {
+
+  width: 40px;
+
+  height: 40px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  background: #f3f4f6;
+}
+
+.user-profile {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.avatar {
+
+  width: 42px;
+
+  height: 42px;
+
+  border-radius: 50%;
+
+  background: #6366f1;
+
+  color: white;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.user-info {
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.name {
+
+  font-weight: 600;
+}
+
+.role {
+
+  font-size: 12px;
+
+  color: gray;
+}
+
+.logout-btn {
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}

@@ -1,0 +1,159 @@
+<div class="announcement-page">
+
+  <div class="page-header">
+
+    <div>
+
+      <h1>
+        Company Announcements
+      </h1>
+
+      <p>
+        Internal notices and updates
+      </p>
+
+    </div>
+
+    <button
+        *ngIf="
+      role === 'Admin' ||
+      role === 'Manager'
+      "
+      class="add-btn"
+      (click)="addAnnouncement()">
+
+      + New Announcement
+
+    </button>
+
+  </div>
+
+  <div *ngIf="
+  role === 'Admin' ||
+  role === 'Manager'
+  "class="stats-grid">
+
+    <div class="stat-card total">
+
+      <h3>Total</h3>
+
+      <h2>
+        {{ announcements.length }}
+      </h2>
+
+    </div>
+
+    <div class="stat-card active">
+
+      <h3>Active</h3>
+
+      <h2>
+        {{ activeCount }}
+      </h2>
+
+    </div>
+
+    <div class="stat-card inactive">
+
+      <h3>Inactive</h3>
+
+      <h2>
+        {{ inactiveCount }}
+      </h2>
+
+    </div>
+
+  </div>
+
+  <div
+  class="announcement-card"
+
+  *ngFor="
+  let item
+  of announcements">
+
+    <div
+    class="announcement-header">
+
+      <h3>
+
+        {{ item.title }}
+
+      </h3>
+
+      <span
+
+      [ngClass]="
+      item.isActive
+      ? 'active-badge'
+      : 'inactive-badge'">
+
+      {{
+        item.isActive
+        ? 'Active'
+        : 'Inactive'
+      }}
+
+      </span>
+
+    </div>
+
+    <p>
+
+      {{ item.message }}
+
+    </p>
+
+    <div
+    class="announcement-footer">
+
+      <span>
+
+        Created:
+        {{ item.createdOn }}
+
+      </span>
+
+      <div>
+
+        <button
+        *ngIf="
+        role === 'Admin' ||
+        role === 'Manager'
+        "
+
+        class="edit-btn"
+
+        (click)="
+        editAnnouncement(
+        item.announcementId
+        )">
+
+        Edit
+
+        </button>
+
+        <button
+        *ngIf="
+        role === 'Admin' ||
+        role === 'Manager'
+        "
+
+        class="delete-btn"
+
+        (click)="
+        deleteAnnouncement(
+        item.announcementId
+        )">
+
+        Delete
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

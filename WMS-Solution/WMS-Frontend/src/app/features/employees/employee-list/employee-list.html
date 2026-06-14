@@ -1,0 +1,100 @@
+<div class="employee-header">
+
+  <h2>Employee Management</h2>
+
+  <button
+    class="add-btn"
+    (click)="addEmployee()">
+
+    + Add Employee
+
+  </button>
+
+</div>
+
+<div class="search-box">
+
+  <input
+
+  type="text"
+
+  placeholder="Search Employee..."
+
+  [(ngModel)]="searchText"
+
+  (input)="searchEmployees()"
+
+  class="search-box"
+
+/>
+
+</div>
+
+<div class="table-container">
+
+  <table>
+
+    <thead>
+
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Department</th>
+        <th>Role</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let employee of employees">
+
+        <td>{{ employee.employeeId }}</td>
+
+        <td>
+          {{ employee.firstName }}
+          {{ employee.lastName }}
+        </td>
+
+        <td>{{ employee.email }}</td>
+
+        <td>{{ employee.departmentId }}</td>
+
+        <td>{{ employee.roleId }}</td>
+
+        <td>{{ employee.status }}</td>
+
+        
+
+          <td class="actions">
+
+          <button
+            class="edit-btn"
+            (click)="editEmployee(employee.employeeId)">
+
+            ✏️ Edit
+
+          </button>
+
+          <button
+            class="delete-btn"
+            (click)="deleteEmployee(employee.employeeId)">
+
+            🗑 Delete
+
+          </button>
+
+      </td>
+
+       
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

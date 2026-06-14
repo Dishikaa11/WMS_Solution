@@ -1,0 +1,114 @@
+<div class="form-wrapper">
+
+  <div class="form-header">
+
+    <button
+    class="back-btn"
+    (click)="goBack()">
+
+    ← Back
+
+    </button>
+
+    <h2>
+      Attendance Form
+    </h2>
+
+  </div>
+
+  <form
+  [formGroup]="attendanceForm"
+  (ngSubmit)="onSubmit()">
+
+    <div class="form-card">
+
+      <div class="form-group">
+
+        <label>
+          Employee ID
+        </label>
+
+        <input
+        type="number"
+        formControlName="empId">
+
+      </div>
+
+      <div class="form-group">
+
+        <label>
+          Attendance Date
+        </label>
+
+        <input
+        type="date"
+        formControlName=
+        "attendanceDate">
+
+      </div>
+
+      <div class="form-group">
+
+        <label>
+          Check In
+        </label>
+
+        <input
+        type="datetime-local"
+        formControlName=
+        "checkIn">
+
+      </div>
+
+      <div class="form-group">
+
+        <label>
+          Check Out
+        </label>
+
+        <input
+        type="datetime-local"
+        formControlName=
+        "checkOut">
+
+      </div>
+
+      <div class="form-group">
+
+        <label>
+          Work Mode
+        </label>
+
+        <select
+        formControlName=
+        "workMode">
+
+          <option>
+            Office
+          </option>
+
+          <option>
+            Remote
+          </option>
+
+          <option>
+            Hybrid
+          </option>
+
+        </select>
+
+      </div>
+
+      <button
+      class="save-btn"
+      type="submit">
+
+      Save Attendance
+
+      </button>
+
+    </div>
+
+  </form>
+
+</div>
