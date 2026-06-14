@@ -160,7 +160,7 @@ app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowAngular");
+//app.UseCors("AllowAngular");
 app.UseAuthentication();
 app.UseAuthorization();
 
