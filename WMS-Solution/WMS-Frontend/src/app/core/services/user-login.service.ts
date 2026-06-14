@@ -13,7 +13,7 @@ from '../models/user-login';
 export class UserLoginService {
 
   private apiUrl =
-  'http://localhost:5161/api/UserLogin';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/UserLogin';
 
   constructor(
     private http: HttpClient

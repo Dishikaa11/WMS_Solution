@@ -15,7 +15,7 @@ from '../models/audit-log';
 export class AuditLogService {
 
   private apiUrl =
-  'http://localhost:5161/api/AuditLog';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/AuditLog';
 
   constructor(
     private http: HttpClient

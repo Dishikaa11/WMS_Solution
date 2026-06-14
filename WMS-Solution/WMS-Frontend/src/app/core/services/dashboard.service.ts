@@ -16,7 +16,7 @@ from '../models/employee-dashboard';
 export class DashboardService {
 
   private apiUrl =
-  'http://localhost:5161/api/Dashboard';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Dashboard';
 
   constructor(
     private http: HttpClient

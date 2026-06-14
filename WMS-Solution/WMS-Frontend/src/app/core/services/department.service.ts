@@ -11,7 +11,7 @@ from '../models/department';
 export class DepartmentService {
 
   private apiUrl =
-    'http://localhost:5161/api/Department';
+    'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Department';
 
   constructor(
     private http: HttpClient

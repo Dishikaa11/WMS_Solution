@@ -18,7 +18,7 @@ import {
 export class AnnouncementService {
 
   private apiUrl =
-  'http://localhost:5161/api/Announcement';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Announcement';
 
   constructor(
     private http: HttpClient

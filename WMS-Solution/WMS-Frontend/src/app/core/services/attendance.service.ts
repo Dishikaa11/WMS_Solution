@@ -15,7 +15,7 @@ from '../models/attendance';
 export class AttendanceService {
 
   private apiUrl =
-  'http://localhost:5161/api/Attendance';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Attendance';
 
   constructor(
     private http: HttpClient

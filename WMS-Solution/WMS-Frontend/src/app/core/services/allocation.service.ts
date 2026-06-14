@@ -18,7 +18,7 @@ import {
 export class EmployeeProjectAllocationService {
 
   private apiUrl =
-    'http://localhost:5161/api/EmployeeProjectAllocation';
+    'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/EmployeeProjectAllocation';
 
   constructor(
     private http: HttpClient

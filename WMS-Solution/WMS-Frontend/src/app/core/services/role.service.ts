@@ -12,7 +12,7 @@ import { Role } from '../models/role';
 export class RoleService {
 
   private apiUrl =
-  'http://localhost:5161/api/Role';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Role';
 
   constructor(
     private http: HttpClient

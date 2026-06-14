@@ -11,7 +11,7 @@ from '../models/project';
 export class ProjectService {
 
   private apiUrl =
-  'http://localhost:5161/api/Project';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Project';
 
   constructor(
     private http: HttpClient

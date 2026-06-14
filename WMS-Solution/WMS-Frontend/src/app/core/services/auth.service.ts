@@ -10,7 +10,7 @@ import { environment }
 from '../../../environments/environment';
 
 // NOTE: Backend runs HTTP on 5161 (launchSettings.json). Avoid accidental HTTPS calls.
-const apiBaseHttp = 'http://localhost:5161/api';
+const apiBaseHttp = 'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api';
 
 
 @Injectable({

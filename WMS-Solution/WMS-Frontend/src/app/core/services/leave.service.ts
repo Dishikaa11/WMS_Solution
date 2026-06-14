@@ -11,7 +11,7 @@ from '../models/leave';
 export class LeaveService {
 
   private apiUrl =
-  'http://localhost:5161/api/Leave';
+  'https://wms-api-dishika-f8dtfnghfqezbxf5.centralindia-01.azurewebsites.net/api/Leave';
 
   constructor(
     private http: HttpClient
